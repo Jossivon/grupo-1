@@ -2,6 +2,8 @@ using namespace std;
 class Dictado{
 	private:
 		string horario;
+		
+	public: 
 	Dictado(){
 	}
 	Dictado(string horario){
@@ -14,10 +16,10 @@ class Dictado{
 	}
 	void ingresar(){
 		cout<<"\n Dictado:"<<endl;
-		cout<<"\n Horario";cin>>this->horario;
+		cout<<"\n Horario";cin>>horario;
 	}
 	void imprimir(){
 		cout<<"\n Dictado:"<<endl;
-		cout<<"\n Horario"<<this->horario<<endl;	
+		cout<<"\n Horario"<<horario<<endl;	
 	}
 }
